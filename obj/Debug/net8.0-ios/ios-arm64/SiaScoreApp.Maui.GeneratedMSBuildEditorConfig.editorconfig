@@ -1,0 +1,125 @@
+is_global = true
+build_property.EnableAotAnalyzer = 
+build_property.EnableSingleFileAnalyzer = 
+build_property.EnableTrimAnalyzer = false
+build_property.IncludeAllContentForSelfExtract = 
+build_property.TargetFramework = net8.0-ios
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = false
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = SiaScoreApp.Maui
+build_property.ProjectDir = C:\Users\simon\source\repos\SiaScoreApp.Maui\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+
+[C:/Users/simon/source/repos/SiaScoreApp.Maui/App.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = SiaScoreApp.Maui.App.xaml
+build_metadata.AdditionalFiles.TargetPath = App.xaml
+build_metadata.AdditionalFiles.RelativePath = App.xaml
+
+[C:/Users/simon/source/repos/SiaScoreApp.Maui/AppShell.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = SiaScoreApp.Maui.AppShell.xaml
+build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
+build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
+
+[C:/Users/simon/source/repos/SiaScoreApp.Maui/MainPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = SiaScoreApp.Maui.MainPage.xaml
+build_metadata.AdditionalFiles.TargetPath = MainPage.xaml
+build_metadata.AdditionalFiles.RelativePath = MainPage.xaml
+
+[C:/Users/simon/source/repos/SiaScoreApp.Maui/Resources/Styles/Colors.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = SiaScoreApp.Maui.Resources.Styles.Colors.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
+
+[C:/Users/simon/source/repos/SiaScoreApp.Maui/Resources/Styles/Styles.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = SiaScoreApp.Maui.Resources.Styles.Styles.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
+
+[C:/Users/simon/source/repos/SiaScoreApp.Maui/Views/Profile/EditProfile.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = SiaScoreApp.Maui.Views.Profile.EditProfile.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\Profile\EditProfile.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\Profile\EditProfile.xaml
+
+[C:/Users/simon/source/repos/SiaScoreApp.Maui/Views/Profile/MyPlayers/AddPlayer.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = SiaScoreApp.Maui.Views.Profile.MyPlayers.AddPlayer.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\Profile\MyPlayers\AddPlayer.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\Profile\MyPlayers\AddPlayer.xaml
+
+[C:/Users/simon/source/repos/SiaScoreApp.Maui/Views/Profile/MyPlayers/MyPlayersPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = SiaScoreApp.Maui.Views.Profile.MyPlayers.MyPlayersPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\Profile\MyPlayers\MyPlayersPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\Profile\MyPlayers\MyPlayersPage.xaml
+
+[C:/Users/simon/source/repos/SiaScoreApp.Maui/Views/Profile/MyPlayers/Player/EditPlayer.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = SiaScoreApp.Maui.Views.Profile.MyPlayers.Player.EditPlayer.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\Profile\MyPlayers\Player\EditPlayer.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\Profile\MyPlayers\Player\EditPlayer.xaml
+
+[C:/Users/simon/source/repos/SiaScoreApp.Maui/Views/Profile/MyPlayers/Player/PlayerPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = SiaScoreApp.Maui.Views.Profile.MyPlayers.Player.PlayerPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\Profile\MyPlayers\Player\PlayerPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\Profile\MyPlayers\Player\PlayerPage.xaml
+
+[C:/Users/simon/source/repos/SiaScoreApp.Maui/Views/Profile/MySessions/AddSession.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = SiaScoreApp.Maui.Views.Profile.MySessions.AddSession.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\Profile\MySessions\AddSession.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\Profile\MySessions\AddSession.xaml
+
+[C:/Users/simon/source/repos/SiaScoreApp.Maui/Views/Profile/MySessions/MySessionsPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = SiaScoreApp.Maui.Views.Profile.MySessions.MySessionsPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\Profile\MySessions\MySessionsPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\Profile\MySessions\MySessionsPage.xaml
+
+[C:/Users/simon/source/repos/SiaScoreApp.Maui/Views/Profile/MySessions/Session/AddAppraisal.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = SiaScoreApp.Maui.Views.Profile.MySessions.Session.AddAppraisal.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\Profile\MySessions\Session\AddAppraisal.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\Profile\MySessions\Session\AddAppraisal.xaml
+
+[C:/Users/simon/source/repos/SiaScoreApp.Maui/Views/Profile/MySessions/Session/Appraisal/AppraisalPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = SiaScoreApp.Maui.Views.Profile.MySessions.Session.Appraisal.AppraisalPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\Profile\MySessions\Session\Appraisal\AppraisalPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\Profile\MySessions\Session\Appraisal\AppraisalPage.xaml
+
+[C:/Users/simon/source/repos/SiaScoreApp.Maui/Views/Profile/MySessions/Session/Appraisal/EditAppraisal.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = SiaScoreApp.Maui.Views.Profile.MySessions.Session.Appraisal.EditAppraisal.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\Profile\MySessions\Session\Appraisal\EditAppraisal.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\Profile\MySessions\Session\Appraisal\EditAppraisal.xaml
+
+[C:/Users/simon/source/repos/SiaScoreApp.Maui/Views/Profile/MySessions/Session/EditSession.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = SiaScoreApp.Maui.Views.Profile.MySessions.Session.EditSession.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\Profile\MySessions\Session\EditSession.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\Profile\MySessions\Session\EditSession.xaml
+
+[C:/Users/simon/source/repos/SiaScoreApp.Maui/Views/Profile/MySessions/Session/SessionPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = SiaScoreApp.Maui.Views.Profile.MySessions.Session.SessionPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\Profile\MySessions\Session\SessionPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\Profile\MySessions\Session\SessionPage.xaml
+
+[C:/Users/simon/source/repos/SiaScoreApp.Maui/Views/Profile/ProfilePage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = SiaScoreApp.Maui.Views.Profile.ProfilePage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\Profile\ProfilePage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\Profile\ProfilePage.xaml

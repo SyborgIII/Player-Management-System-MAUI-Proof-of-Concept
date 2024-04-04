@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="SiaScoreApp.Maui.Views.Profile.MyPlayers.MyPlayersPage"
+             Title="MyPlayersPage"
+             Padding="30">
+
+        <VerticalStackLayout Spacing="10">
+            <Label 
+            Text="My Players"
+            FontSize="Title"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" />
+
+            <ListView x:Name="MyPlayersListView"
+                  BackgroundColor="LightGray"
+                  SeparatorColor="DarkGray"
+                  ItemSelected="MyPlayersListView_ItemSelected"
+                  ItemTapped="MyPlayersListView_ItemTapped"
+                  >
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                    <TextCell Text="{Binding FullNameText}"
+                              Detail="{Binding TeamName}"></TextCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+
+            <Button x:Name="AddNewPlayerBtn" Text="Add New Player" Clicked="AddNewPlayerBtn_Clicked"></Button>
+            <Button x:Name="ReturnBtn" Text="Return to previous page" Clicked="ReturnBtn_Clicked"></Button>
+
+        </VerticalStackLayout>
+ 
+    
+</ContentPage>

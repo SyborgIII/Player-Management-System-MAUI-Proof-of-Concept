@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="SiaScoreApp.Maui.Views.Profile.MySessions.MySessionsPage"
+             Title="MySessionsPage"
+             Padding="30">
+    <VerticalStackLayout Spacing="10">
+        <Label 
+            Text="My Sessions"
+            FontSize="Title"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" />
+
+        <ListView x:Name="MySessionsListView"
+                  BackgroundColor="LightGray"
+                  SeparatorColor="DarkGray"
+                  ItemTapped="MySessionsListView_ItemTapped"
+                  ItemSelected="MySessionsListView_ItemSelected"
+                  >
+            <ListView.ItemTemplate>
+                <DataTemplate >
+                    <TextCell  Text="{Binding Name}"></TextCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+        <Button x:Name="AddNewSessionBtn" Text="Add New Session" Clicked="AddNewSessionBtn_Clicked"></Button>
+        <Button x:Name="ReturnToProfileBtn" Text="Return to Profile" Clicked="ReturnToProfileBtn_Clicked"></Button>
+    </VerticalStackLayout>
+</ContentPage>

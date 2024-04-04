@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="SiaScoreApp.Maui.Views.Profile.ProfilePage"
+             x:Name="ProfilePageContentPage"
+             Title="S.I.A Score App Home Page"
+             Padding="60"
+             BackgroundColor="DarkCyan">
+    <VerticalStackLayout Spacing="30">
+        <Label 
+            x:Name="ProfilePageHeaderLabel"
+            Text="Welcome The Profile Page"
+            FontSize="Title"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" />
+        <Button x:Name="NavMyPlayersPageBtn" Text="MyPlayers" Clicked="NavMyPlayersPageBtn_Clicked" BackgroundColor="DarkBlue" FontSize="Large"></Button>
+        <Button x:Name="NavMySessionsBtn" Text="My Sessions" Clicked="NavMySessionsBtn_Clicked" BackgroundColor="DarkBlue" FontSize="Large"></Button>
+        <Button x:Name="EditProfileBtn" Text="Edit Profile" Clicked="EditProfileBtn_Clicked" BackgroundColor="DarkBlue" FontSize="Large"></Button>
+        
+       
+    </VerticalStackLayout>
+</ContentPage>

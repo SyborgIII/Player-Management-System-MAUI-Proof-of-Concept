@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="SiaScoreApp.Maui.Views.Profile.MyAppraisalSessions.AppraisalSession.Appraisal.EditAppraisal"
+             Title="EditAppraisal"
+             Padding="60">
+    <VerticalStackLayout Spacing="30">
+        <Label 
+            Text="Edit Appraisal"
+            FontSize="Header"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" />
+        <Button x:Name="SaveChangesBtn" Text="Save Changes" Clicked="SaveChangesBtn_Clicked"></Button> 
+        <Button x:Name="returnBtn" Text="Return to previous page" Clicked="returnBtn_Clicked"></Button>
+    </VerticalStackLayout>
+</ContentPage>

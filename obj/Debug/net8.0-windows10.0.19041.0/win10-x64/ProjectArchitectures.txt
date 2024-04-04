@@ -1,0 +1,1 @@
+C:\Users\simon\source\repos\SiaScoreApp.Maui\SiaScoreApp.Maui.csproj;x64

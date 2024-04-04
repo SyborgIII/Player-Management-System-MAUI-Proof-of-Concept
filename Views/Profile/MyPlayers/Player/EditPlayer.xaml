@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="SiaScoreApp.Maui.Views.Profile.MyPlayers.Player.EditPlayer"
+             Title="EditPlayerPage"
+             Padding="60"
+             BackgroundColor="DarkCyan">
+    <VerticalStackLayout Spacing="10" Margin="20, 10, 20, 0">
+        <Label x:Name="EditPlayerPageLabel"
+               Text="Edit Player"
+               FontSize="Title"
+               VerticalOptions="Center" 
+               HorizontalOptions="Center" />
+        <Frame BackgroundColor="LightGray" Padding="10, 2, 10, 2">
+            <HorizontalStackLayout>
+                <Label Text="First Name:" VerticalOptions="Center" WidthRequest="60"></Label>
+                <Entry x:Name="FirstNameEntry" VerticalOptions="Center"></Entry>
+            </HorizontalStackLayout>
+        </Frame>
+        <Frame BackgroundColor="LightGray" Padding="10, 2, 10, 2">
+            <HorizontalStackLayout>
+                <Label Text="Last Name:" VerticalOptions="Center" WidthRequest="60"></Label>
+                <Entry x:Name="LastNameEntry" VerticalOptions="Center"></Entry>
+            </HorizontalStackLayout>
+        </Frame>
+        <Frame BackgroundColor="LightGray" Padding="10, 2, 10, 2">
+            <HorizontalStackLayout>
+                <Label Text="Team:" VerticalOptions="Center" WidthRequest="60"></Label>
+                <Entry x:Name="TeamEntry" VerticalOptions="Center"></Entry>
+            </HorizontalStackLayout>
+        </Frame>
+        <Button x:Name="SaveChangesBtn" Text="Save Changes" Clicked="SaveChangesBtn_Clicked" BackgroundColor="DarkBlue"></Button>
+        <Button x:Name="ReturnBtn" Text="Return to previous page" Clicked="ReturnBtn_Clicked" BackgroundColor="DarkBlue"></Button>
+    </VerticalStackLayout>
+</ContentPage>

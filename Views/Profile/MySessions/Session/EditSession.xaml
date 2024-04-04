@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="SiaScoreApp.Maui.Views.Profile.MySessions.Session.EditSession"
+             Title="EditSession"
+             Padding="30"
+             BackgroundColor="DarkCyan">
+    <VerticalStackLayout Spacing="10" Margin="20, 10, 20, 0">
+        <Label x:Name="EditSessionPageLabel"
+               Text="Edit Session"
+               FontSize="Title"
+               VerticalOptions="Center" 
+               HorizontalOptions="Center" />
+        <Frame BackgroundColor="LightGray" Padding="10, 2, 10, 2">
+            <HorizontalStackLayout>
+                <Label Text="Session Name:" VerticalOptions="Center" WidthRequest="60"></Label>
+                <Entry x:Name="SessionNameEntry" VerticalOptions="Center"></Entry>
+            </HorizontalStackLayout>
+        </Frame>
+        <Frame BackgroundColor="LightGray" Padding="10, 2, 10, 2">
+            <HorizontalStackLayout>
+                <Label Text="Session Type:"  VerticalOptions="Center" WidthRequest="60"></Label>
+                <Entry x:Name="SessionTypeEntry" VerticalOptions="Center"></Entry>
+            </HorizontalStackLayout>
+        </Frame>
+
+        <Button x:Name="SaveChangesBtn" Text="Save Changes" Clicked="SaveChangesBtn_Clicked"  BackgroundColor="DarkBlue"></Button>
+        <Button x:Name="ReturnBtn" Text="Return to previous page" Clicked="ReturnBtn_Clicked"  BackgroundColor="DarkBlue"></Button>
+    </VerticalStackLayout>
+</ContentPage>

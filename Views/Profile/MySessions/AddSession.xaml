@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="SiaScoreApp.Maui.Views.Profile.MySessions.AddSession"
+             Title="AddSessionPage"
+             Padding="60">
+    <VerticalStackLayout Spacing="30">
+        <Label 
+            Text="Add Session"
+            FontSize="Header"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" />
+        <Button x:Name="AddSessionBtn" Text="Add Session" Clicked="AddSessionBtn_Clicked"></Button>
+        <Button x:Name="ReturnBtn" Text="Return to Previous Page" Clicked="ReturnBtn_Clicked"></Button>
+    </VerticalStackLayout>
+</ContentPage>

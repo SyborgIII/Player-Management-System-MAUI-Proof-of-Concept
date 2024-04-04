@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="SiaScoreApp.Maui.Views.SessionPage"
+             Title="SessionPage"
+             Padding="30"
+             BackgroundColor="DarkCyan">
+    <VerticalStackLayout Spacing="20">
+
+        <Frame BackgroundColor="LightGray" Padding="10, 2, 10, 2" WidthRequest="260">
+            <VerticalStackLayout HorizontalOptions="Center" VerticalOptions="Center">
+                <Label x:Name="SessionPageSessionNameLabel" HorizontalOptions="Center" VerticalOptions="Center"></Label>
+                <Label x:Name="SessionPageSessionTypeLabel" HorizontalOptions="Center" VerticalOptions="Center"></Label>
+                <Label x:Name="SessionPageSessionDateLabel" HorizontalOptions="Center" VerticalOptions="Center"></Label>
+            </VerticalStackLayout>
+        </Frame>
+        <ListView x:Name="SessionPageListView"
+                  BackgroundColor="LightGray"
+                  SeparatorColor="DarkGray"
+                  ItemTapped="SessionPageListView_ItemTapped"
+                  ItemSelected="SessionPageListView_ItemSelected"
+                  >
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <TextCell Text="{Binding AppraisalText}"
+                              Detail="{Binding Executed}">
+                    </TextCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+        <Button x:Name="AddNewAppraisalBtn" Text="Add New Appraisal" Clicked="AddNewAppraisalBtn_Clicked" BackgroundColor="DarkBlue"></Button>
+        <Button x:Name="EditSessionBtn" Text="Edit Session" Clicked="EditSessionBtn_Clicked"  BackgroundColor="DarkBlue"></Button>
+        <Button x:Name="ReturnBtn" Text="Return to Previous Page" Clicked="ReturnBtn_Clicked" BackgroundColor="DarkBlue"></Button>
+
+    </VerticalStackLayout>
+</ContentPage>
